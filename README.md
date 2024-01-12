@@ -108,10 +108,11 @@ Ultimately, I tested the selected Custom Agent on the test set for 100 games of 
   **Pretty much perfect!**
 
 # Test Custom Agent on web images
-|     |     |     |
-|:---:|:---:|:---:|
+| Image | Image | Image |
+|:-----:|:-----:|:-----:|
 | <img src="https://github.com/nikifori/Rock-Scissors-Paper-ML-CSD-2023/assets/57923121/d00fa170-16bb-4d74-aa6f-218e0b1cded6" width="100" height="100"> | <img src="https://github.com/nikifori/Rock-Scissors-Paper-ML-CSD-2023/assets/57923121/91dca13b-2679-4c27-a6a3-91cab8b3072b" width="100" height="100"> | <img src="https://github.com/nikifori/Rock-Scissors-Paper-ML-CSD-2023/assets/57923121/78802400-1dc2-4926-844b-9578224c8499" width="100" height="100"> |
-| Paper | Rock | Scissors |
+| Prediction: Paper | Prediction: Rock | Prediction: Scissors |
+
 
 
   
