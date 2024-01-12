@@ -65,7 +65,7 @@ In this section I load the data using ImageFolder class. Then, I decided to augm
 	* HorizontalFlip to all images
 	* Add Gaussian noise as in (2) in "How is the game going to be played ?"  
 
-Then, for each dataset (Train, Validation) I combined the datasets with the aforesaid "transforms" and convert them to numpy arrays.
+Then, for each dataset (Train, Validation) I combined the datasets with the aforesaid "transforms" and convert them to numpy arrays (flattened).
 
 Afterwards, I trained 3 Baseline models on the Train set:
 * A Support Vector Machine Classifier (sklearn)
