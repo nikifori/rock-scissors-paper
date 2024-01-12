@@ -91,7 +91,7 @@ Finally, I tested those Baseline models on Test set for 1000 rounds using as dat
 ![](https://github.com/nikifori/Rock-Scissors-Paper-ML-CSD-2023/blob/main/artifacts/baseline_models_cummulative_rewards_test.png)  
 
 # Create Custom Agent using as backbone ViT-base/16
-In this section, ImageFolder was also exploited for loading the data and the same data augmentation approach was followed as the former section.  
+In this section, ImageFolder was also exploited for loading the data and the same data augmentation approach was followed as the former section but this time I did not Grayscale or Resize transformations. I retained the original image size and then I passed it to the processor of ViT.  
   
 I took advantage of [ViT](https://huggingface.co/google/vit-base-patch16-224) because it has demonstated exceptional results on downstream image tasks. I added on top of it a Linear, a ReLU, a Dropout and a final Linear layer as it is depicted in the architecture underneath. Snow flake reflects to the parameters that are frozen and flame to the trainable ones.  
 
