@@ -1,4 +1,3 @@
-# Rock-Scissors-Paper-ML-CSD-2023
 # Rock-Scissors-Paper Agent
 This is the final project of Machine Learning Course (CSD - AUTH)
 
